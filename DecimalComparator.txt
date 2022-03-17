@@ -1,0 +1,25 @@
+
+public class test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	boolean	response= areEqualByThreeDecimalPlaces(3.176, 3.175);
+	System.out.println(response);
+
+	}
+    public static boolean areEqualByThreeDecimalPlaces(double one, double two) {
+        int a = (int) one * 1000;
+        int b = (int) two * 1000;
+
+        if(a == b){
+            System.out.println(true);
+            return true;
+        }
+        else
+
+            System.out.println(false);
+        return false;
+    }
+		}
+
+
